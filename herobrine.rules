@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قواعد هيروبراين</title>
+  <style>
+    body {
+      background-color: black;
+      color: red;
+      font-family: 'Creepster', cursive;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 3em;
+      text-shadow: 0 0 10px crimson;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 20px 0;
+      font-size: 1.5em;
+      text-shadow: 0 0 5px red;
+    }
+    img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="https://i.imgur.com/UoWbM9g.png" alt="هيروبراين بسماعة">
+  <h1>قواعد هيروبراين</h1>
+  <ul>
+    <li>لا رحمة في أرض المعركة</li>
+    <li>عدوك لا يستحق الشفقة</li>
+    <li>إن لم تكن مدمِّرًا، سيتم تدميرك</li>
+    <li>القوة هي القانون</li>
+    <li>من يتجرأ أن يعارضك؟ سحقه</li>
+  </ul>
+</body>
+</html>
