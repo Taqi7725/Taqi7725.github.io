@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحة VIP</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #0f0;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #0f0;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1em;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    input {
+      width: 250px;
+    }
+    button {
+      background-color: #0f0;
+      color: black;
+      cursor: pointer;
+    }
+    .content {
+      display: none;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔒 صفحة VIP</h1>
+  <p>أدخل كلمة المرور للدخول:</p>
+  <input type="password" id="passwordInput" placeholder="••••••••">
+  <button onclick="checkPassword()">دخول</button>
+
+  <div class="content" id="vipContent">
+    <h2>🎥 محتوى VIP المجاني</h2>
+    <p>هنا يمكنك مشاهدة نفس الفيديوهات مجانًا!</p>
+    <ul>
+      <li><a href="animation.html" style="color: #0ff;">فيلم الثلاثي الدموي</a></li>
+      <li><a href="education.html" style="color: #0ff;">الفيديوهات التعليمية</a></li>
+    </ul>
+  </div>
+
+  <script>
+    function checkPassword() {
+      var password = document.getElementById(\"passwordInput\").value;
+      if (password === \"taqi1234\") {
+        document.getElementById(\"vipContent\").style.display = \"block\";
+      } else {
+        alert(\"كلمة المرور خاطئة!\");
+      }
+    }
+  </script>
+
+</body>
+      </html>
